@@ -1,5 +1,5 @@
 import os, shutil
-path = r"C:/Users/Zuhan Shahria/OneDrive/Pictures/Testing/"
+path = r"PATH NAME"
 
 file_name = os.listdir(path)
 folder_names = ['JPEG files', 'JPG files', 'WEBP files', 'PNG files']
