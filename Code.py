@@ -7,7 +7,6 @@ folder_names = ['JPEG files', 'JPG files', 'WEBP files', 'PNG files']
 
 for i in range(0,4):
     if not os.path.exists(path + folder_names[i]):
-        print(os.path.exists(path + folder_names[i]))
         os.makedirs(path + folder_names[i])
 
 for file in file_name:
